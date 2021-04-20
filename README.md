@@ -49,7 +49,7 @@ The following is the development and deployment environment of the project:
 
 ## 4.System structure 
 
-![架构图](https://gitee.com/Keepromise/image/blob/master/kePOS/KePOS架构图.gif)
+![架构图](https://gitee.com/Keepromise/ke-pos/blob/master/Readme_image/KePOS架构图.gif)
 
 ## 5.Installation
 
