@@ -1,19 +1,19 @@
 # KePOS
 ![tag](https://img.shields.io/badge/version-v0.1-brightgreen "tag") ![license](https://img.shields.io/badge/License-Apache%202.0-blue "license") ![centos](https://img.shields.io/badge/centos-6-orange "centos") ![gcc](https://img.shields.io/badge/gcc-4.4.7-green "gcc")  ![AMD](https://img.shields.io/badge/AMD-RYZEN%205-yellowgreen,"AMD")
 
-## 1.介绍
+## 1.Introduction
 
-KePOS是一个64位的操作系统。做这个系统是为了将所学的操作系统理论知识和实践相结合，加深对于操作系统的理解。kePOS适合想了解基本的现代操作系统实现方式的人，也适合想了解用户态程序是如何(编译->链接->运行在操作系统上)，如何进行进程切换，系统调用是怎么进入内核并返回的。
+KePOS is a 64-bit operating system. The purpose of this system is to combine the theoretical knowledge and practice of the operating system that has been learned, and to deepen the understanding of the operating system. kePOS is suitable for people who want to understand the basic implementation of modern operating systems. It is also suitable for people who want to understand how user mode programs (compile -> link -> run on the operating system), how to switch processes, and how system calls enter the kernel and return.
 
-KePOS实现了现代操作系统涉及的：`内存管理`，`设备管理(键盘，鼠标)`，`中断和异常处理`，`多进程`，`GUI`，`系统调用`；由于时间关系，KePOS并没有实现`文件系统`，后续可能会补充实现。
+KePOS implements what modern operating systems involve: **memory management**, **device management** (keyboard, mouse), **interrupt and exception handling**, **multi-process**, **GUI**, **system calls**; due to time constraints, KePOS does not implement a file system, and may be implemented later.
 
-如果想要运行KePOS，或者阅读其代码，需要有基本的C语言，汇编语言知识。
+If you want to run KePOS or read its code, you need basic knowledge of **C language** and **assembly language**. 
 
-###### 展示：
+###### presention：
 
 ![kepos展示](https://github.com/KeeProMise/image/blob/master/kePOS/kepos展示.png)
 
-###### 参考：
+###### reference：
 
 > 《操作系统概念》第七版
 >
@@ -23,104 +23,106 @@ KePOS实现了现代操作系统涉及的：`内存管理`，`设备管理(键�
 >
 > 《AMD64 Architecture  Programmer’s Manual:  Volumes 1-5》
 
-## 2.环境
+## 2.Environment 
 
-下面是项目的开发和部署环境：
+The following is the development and deployment environment of the project:
 
-- 开发所用的操作系统：centos 6
-- gcc 4.4.7
-- CPU : AMD RYZEN 5，inter的cpu也可以（使用了兼容的指令）
-- 运行KePOS虚拟机：Oracle VM VirtualBox
+- Operating system used for development: **centos 6**
+- **gcc 4.4.7**
+- CPU: **AMD** RYZEN 5, **Inter** cpu is also available (compatible instructions are used)
+- Run KePOS virtual machine: Oracle VM **VirtualBox** 
 
-## 3.文件目录介绍
+## 3.Directory introduction 
 
-###### bin目录:
+###### bin directory:
 
-- ​	*kernel.bin*：内核编译后的二进制文件
-- ​	*loader.bin*：bootloader的二进制文件
-- ​	*mymain.bin*： 用户程序的二进制文件
+- ​	*kernel.bin*：Binary file after kernel compilation 
+- ​	*loader.bin*：Binary file after bootloadercompilation 
+- ​	*mymain.bin*： Binary file of user program 
 
-###### bootloader目录：
+###### bootloader directory：
 
-​	保存boot和loader的汇编源代码，和makefile文件
+​	Save the assembly source code of boot and loader, and makefile 
 
-###### kernel目录：
+###### kernel directory：
 
-​	保存内核源码
+​	Save the kernel source code 
 
-###### user目录：
+###### user directory：
 
-​	保存用户程序和库文件。
+​	Save user programs and library files. 
 
-- ​	*main.c*为用户程序源代码。
-- ​    *makefile*：用于编译和链接用户程序和库.c代码
+- ​	*main.c*   source code of user program. 
+- ​    *makefile*：Used to compile and link user programs and libraries code .
 
-*KePOS_v0.1.img*：已经制作好的软盘文件(包含：F12文件系统，kernel.bin，mymain.bin,boot.bin，loader.bin)
+*KePOS_v0.1.img*：The prepared floppy disk file (including: F12 file system, kernel.bin, mymain.bin, boot.bin, loader.bin) .
 
-## 4.系统架构
+## 4.System structure 
 
 ![绘图4](https://github.com/KeeProMise/image/blob/master/KePOS/KePOS架构图.gif)
 
-## 5.安装部署
+## 5.Installation
 
-##### 1.快速运行
+##### 1.Quick start 
 
-在Oracle VM VirtualBox虚拟机中，新建一个**64位**的虚拟机（内存：4G，包含软盘）。将*KePOS_v0.1.img*下载并且添加到虚拟机中，即可运行该系统。
+In the Oracle VM VirtualBox , create a new **64-bit** virtual machine (memory: 4G, including floppy disk). Download *KePOS_v0.1.img* and add it to the  virtual machine to run the KePOS system.
 
-进入系统界面，点击鼠标右键将会打开一个用户进程，该进程可以输入（w,a,s,d）按键来控制，窗口关闭还没有实现。
+Open the kePOS system and click the right mouse button to open a user process. The process can enter (w, a, s, d) on the keyboard to control the movement direction of the small square. 
 
-##### 2.编译源码
+*The window closing has not yet been realized.* 
 
-在centos 6中，确保gcc版本为4，执行下述命令
+##### 2.Compile
 
-编译生成boot.bin和loader.bin，到bootloader目录下，执行：
+In centos 6, make sure the gcc version is 4, then execute the following commands:
 
-```shell
-make
-```
-
-编译生成kernel.bin，到kernel目录下，执行：
+Compile to generate *boot.bin* and *loader.bin,* go to the bootloader directory, and execute:
 
 ```shell
 make
 ```
 
-编译生成mymain.bin，到user目录下，执行：
+Compile to generate *kernel.bin*, go to the kernel directory, and execute:
 
 ```shell
 make
 ```
 
-##### 3.创建软盘镜像
+Compile and generate *mymain.bin*, go to the user directory, and execute:
 
-在boot.bin所在目录下，执行下述命令，会在当前目录下生成KePOS_v0.1.img文件。
+```shell
+make
+```
+
+##### 3.Floppy disk image
+
+In the directory where boot.bin is located, execute the following command, the *KePOS_v0.1.img* will be generated in the current directory. 
 
 ```shell
 dd if=boot.bin of=KePOS_v0.1.img bs=512 count=1 conv=notrunc
 dd if=/dev/zero of=KePOS_v0.1.img bs=512 count=2880
 ```
 
-##### 4.copy二进制文件到软盘镜像
+##### 4.Copy binary file to floppy disk image 
 
-可以将制作好的*KePOS_v0.1.img*，*loader.bin*和*kernel.bin*，*mymain.bin*复制到**windows系统**中，然后使用软件**WinImage**打开*KePOS_v0.1.img*，将*loader.bin*，*kernel.bin*，*mymain.bin*拖到*KePOS_v0.1.img*中。
+You can copy the prepared *KePOS_v0.1.img*, *loader.bin* and *kernel.bin*, *mymain.bin* to the **windows** operating system, and then use the software **WinImage** to open *KePOS_v0.1.img*, drag *loader.bin*, *kernel.bin*, *mymain.bin* to *KePOS_v0.1.img*. 
 
-##### 5.虚拟机设置
+##### 5.Virtual machine settings 
 
-- 在Oracle VM VirtualBox创建任意一个64位的虚拟机。
-- 虚拟机的内存大小>4G
-- 存储至少包含软盘
-- 显示控制器选择vboxSVGA，或vmSVGA
+- Create any 64-bit virtual machine in Oracle VM VirtualBox. 
+- The memory size of the virtual machine>4G 
+- Storage contains  floppy disk 
+- Display controller select vboxSVGA, or vmSVGA 
 
-##### 6.运行
+##### 6.Run
 
-- 将*KePOS_v0.1.img*添加到虚拟机中
-- 点击启动虚拟机即可运行系统。
+- Add *KePOS_v0.1.img* to the virtual machine
+- Click to start the virtual machine to run the system.
 
-## 6.完善
+## 6.Improve 
 
-文件系统功能有待实现。
+The file system function has yet to be realized.
 
-GUI功能有待完善。
+The GUI function needs to be improved. 
 
-用户程序种类较少，有待补充。
+There are few types of user programs and need to be added. 
 
