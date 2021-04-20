@@ -3,7 +3,7 @@
 
 ## 1.Introduction
 
-KePOS is a 64-bit operating system. The purpose of this system is to combine the theoretical knowledge and practice of the operating system that has been learned, and to deepen the understanding of the operating system. kePOS is suitable for people who want to understand the basic implementation of modern operating systems. It is also suitable for people who want to understand how user mode programs (compile -> link -> run on the operating system), how to switch processes, and how system calls enter the kernel and return.
+KePOS is a 64-bit operating system. The purpose of this system is to combine the theoretical knowledge and practice of the operating system, and to deepen the understanding of the operating system. kePOS is suitable for people who want to understand the basic implementation of modern operating systems. It is also suitable for people who want to understand how user mode programs (compile -> link -> run on the operating system), how to switch processes, and how system calls enter the kernel and return.
 
 KePOS implements what modern operating systems involve: **memory management**, **device management** (keyboard, mouse), **interrupt and exception handling**, **multi-process**, **GUI**, **system calls**; due to time constraints, KePOS does not implement a file system, and may be implemented later.
 
@@ -12,16 +12,6 @@ If you want to run KePOS or read its code, you need basic knowledge of **C langu
 ##### presention：
 
 ![kepos展示](https://github.com/KeeProMise/image/blob/master/kePOS/kepos展示.png)
-
-##### reference：
-
-> 《操作系统概念》第七版
->
-> 《一个64位操作系统的实现》田宇
->
-> 《Linux 内核完全注释》赵烔
->
-> 《AMD64 Architecture  Programmer’s Manual:  Volumes 1-5》
 
 ## 2.Environment 
 
@@ -126,3 +116,12 @@ The GUI function needs to be improved.
 
 There are few types of user programs and need to be added. 
 
+## 7.reference
+
+> 《操作系统概念》第七版
+>
+> 《一个64位操作系统的实现》田宇
+>
+> 《Linux 内核完全注释》赵烔
+>
+> 《AMD64 Architecture  Programmer’s Manual:  Volumes 1-5》
