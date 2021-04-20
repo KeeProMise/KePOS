@@ -53,4 +53,4 @@ KePOS实现了现代操作系统涉及的：`内存管理`，`设备管理(键�
 
 ## 4.系统架构
 
-![绘图4](E:\github image\github image\kePOS\KePOS架构图.gif)
+![绘图4](https://github.com/KeeProMise/image/blob/master/KePOS/KePOS架构图.gif)
