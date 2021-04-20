@@ -11,7 +11,7 @@ If you want to run KePOS or read its code, you need basic knowledge of **C langu
 
 ##### presention：
 
-![kepos展示](https://gitee.com/Keepromise/image/blob/master/kePOS/kepos展示.png)
+[![cHMRBV.png](https://z3.ax1x.com/2021/04/20/cHMRBV.png)](https://imgtu.com/i/cHMRBV)
 
 ## 2.Environment 
 
@@ -49,7 +49,7 @@ The following is the development and deployment environment of the project:
 
 ## 4.System structure 
 
-![架构图](https://gitee.com/Keepromise/ke-pos/blob/master/Readme_image/KePOS架构图.gif)
+[![cHMY6I.gif](https://z3.ax1x.com/2021/04/20/cHMY6I.gif)](https://imgtu.com/i/cHMY6I)
 
 ## 5.Installation
 
