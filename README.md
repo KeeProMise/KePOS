@@ -9,11 +9,11 @@ KePOS implements what modern operating systems involve: **memory management**, *
 
 If you want to run KePOS or read its code, you need basic knowledge of **C language** and **assembly language**. 
 
-###### presention：
+##### presention：
 
 ![kepos展示](https://github.com/KeeProMise/image/blob/master/kePOS/kepos展示.png)
 
-###### reference：
+##### reference：
 
 > 《操作系统概念》第七版
 >
@@ -63,7 +63,7 @@ The following is the development and deployment environment of the project:
 
 ## 5.Installation
 
-##### 1.Quick start 
+#### 1.Quick start 
 
 In the Oracle VM VirtualBox , create a new **64-bit** virtual machine (memory: 4G, including floppy disk). Download *KePOS_v0.1.img* and add it to the  virtual machine to run the KePOS system.
 
@@ -71,7 +71,7 @@ Open the kePOS system and click the right mouse button to open a user process. T
 
 *The window closing has not yet been realized.* 
 
-##### 2.Compile
+#### 2.Compile
 
 In centos 6, make sure the gcc version is 4, then execute the following commands:
 
@@ -93,7 +93,7 @@ Compile and generate *mymain.bin*, go to the user directory, and execute:
 make
 ```
 
-##### 3.Floppy disk image
+#### 3.Floppy disk image
 
 In the directory where boot.bin is located, execute the following command, the *KePOS_v0.1.img* will be generated in the current directory. 
 
@@ -102,18 +102,18 @@ dd if=boot.bin of=KePOS_v0.1.img bs=512 count=1 conv=notrunc
 dd if=/dev/zero of=KePOS_v0.1.img bs=512 count=2880
 ```
 
-##### 4.Copy binary file to floppy disk image 
+#### 4.Copy binary file to floppy disk image 
 
 You can copy the prepared *KePOS_v0.1.img*, *loader.bin* and *kernel.bin*, *mymain.bin* to the **windows** operating system, and then use the software **WinImage** to open *KePOS_v0.1.img*, drag *loader.bin*, *kernel.bin*, *mymain.bin* to *KePOS_v0.1.img*. 
 
-##### 5.Virtual machine settings 
+#### 5.Virtual machine settings 
 
 - Create any 64-bit virtual machine in Oracle VM VirtualBox. 
 - The memory size of the virtual machine>4G 
 - Storage contains  floppy disk 
 - Display controller select vboxSVGA, or vmSVGA 
 
-##### 6.Run
+#### 6.Run
 
 - Add *KePOS_v0.1.img* to the virtual machine
 - Click to start the virtual machine to run the system.
