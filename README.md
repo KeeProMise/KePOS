@@ -16,9 +16,11 @@ KePOS实现了现代操作系统涉及的：`内存管理`，`设备管理(键�
 ###### 参考：
 
 > 《操作系统概念》第七版
-
-> 《一个64位操作系统的实现》
-
+>
+> 《一个64位操作系统的实现》田宇
+>
+> 《Linux 内核完全注释》赵烔
+>
 > 《AMD64 Architecture  Programmer’s Manual:  Volumes 1-5》
 
 ## 2.环境
@@ -27,7 +29,7 @@ KePOS实现了现代操作系统涉及的：`内存管理`，`设备管理(键�
 
 - 开发所用的操作系统：centos 6
 - gcc 4.4.7
-- CPU : AMD RYZEN 5
+- CPU : AMD RYZEN 5，inter的cpu也可以（使用了兼容的指令）
 - 运行KePOS虚拟机：Oracle VM VirtualBox
 
 ## 3.文件目录介绍
