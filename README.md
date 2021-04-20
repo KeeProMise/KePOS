@@ -49,7 +49,7 @@ The following is the development and deployment environment of the project:
 
 ## 4.System structure 
 
-[![cHMY6I.gif](https://z3.ax1x.com/2021/04/20/cHMY6I.gif)](https://imgtu.com/i/cHMY6I)
+[![cHWWNV.gif](https://z3.ax1x.com/2021/04/20/cHWWNV.gif)](https://imgtu.com/i/cHWWNV)
 
 ## 5.Installation
 
