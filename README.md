@@ -126,4 +126,4 @@ There are few types of user programs and need to be added.
 >
 > 《AMD64 Architecture  Programmer’s Manual:  Volumes 1-5》
 
-[**View more detailed documentation **](https://github.com/KeeProMise/KePOS/wiki)
+[More detailed documentation  ](https://github.com/KeeProMise/KePOS/wiki)
