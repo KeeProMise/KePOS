@@ -125,3 +125,5 @@ There are few types of user programs and need to be added.
 > 《Linux 内核完全注释》赵烔
 >
 > 《AMD64 Architecture  Programmer’s Manual:  Volumes 1-5》
+
+[**View more detailed documentation **](https://github.com/KeeProMise/KePOS/wiki)
