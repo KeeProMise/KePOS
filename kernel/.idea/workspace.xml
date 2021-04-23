@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="71d8b8f4-43af-4047-83f0-d6375cbdceaf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="clangTidyViaClangd" value="false" />
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MakefileLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectId" id="1pYGa3Nee3Hkj9iedAElN2ymHaN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\myCustomOS\Kernel" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="SVGA_Virtual_Address" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="71d8b8f4-43af-4047-83f0-d6375cbdceaf" name="Default Changelist" comment="" />
+      <created>1615352670444</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615352670444</updated>
+      <workItem from="1615352671946" duration="4621000" />
+      <workItem from="1615360229637" duration="624000" />
+      <workItem from="1615361025952" duration="6409000" />
+      <workItem from="1615425613200" duration="4716000" />
+      <workItem from="1615448846325" duration="20381000" />
+      <workItem from="1615511122027" duration="3909000" />
+      <workItem from="1615523718968" duration="25914000" />
+      <workItem from="1615602888050" duration="3078000" />
+      <workItem from="1615782297261" duration="6348000" />
+      <workItem from="1615821033383" duration="3959000" />
+      <workItem from="1615869430490" duration="6434000" />
+      <workItem from="1615876213732" duration="12000" />
+      <workItem from="1615899789475" duration="12161000" />
+      <workItem from="1615954217633" duration="3394000" />
+      <workItem from="1615957894349" duration="139000" />
+      <workItem from="1615993844959" duration="6350000" />
+      <workItem from="1616030790743" duration="7396000" />
+      <workItem from="1616052542325" duration="22046000" />
+      <workItem from="1616131635944" duration="22015000" />
+      <workItem from="1616210526523" duration="25439000" />
+      <workItem from="1616241672445" duration="5729000" />
+      <workItem from="1616290612906" duration="34230000" />
+      <workItem from="1616421233783" duration="1395000" />
+      <workItem from="1616474519697" duration="3872000" />
+      <workItem from="1616483903946" duration="2285000" />
+      <workItem from="1616508213158" duration="3786000" />
+      <workItem from="1616808804652" duration="65000" />
+      <workItem from="1617011364510" duration="1415000" />
+      <workItem from="1617024704863" duration="4474000" />
+      <workItem from="1617077614098" duration="14687000" />
+      <workItem from="1617106558204" duration="7389000" />
+      <workItem from="1617155515573" duration="15490000" />
+      <workItem from="1617175815311" duration="6667000" />
+      <workItem from="1617189987193" duration="6164000" />
+      <workItem from="1617262119314" duration="28105000" />
+      <workItem from="1617324054992" duration="1836000" />
+      <workItem from="1617669975909" duration="26126000" />
+      <workItem from="1617779543293" duration="4507000" />
+      <workItem from="1617842763477" duration="3119000" />
+      <workItem from="1617864478855" duration="9227000" />
+      <workItem from="1618222463048" duration="9622000" />
+      <workItem from="1618237478004" duration="4084000" />
+      <workItem from="1618283723280" duration="9099000" />
+      <workItem from="1618302002881" duration="16021000" />
+      <workItem from="1618555504988" duration="58000" />
+      <workItem from="1618556374250" duration="636000" />
+      <workItem from="1618585639623" duration="1198000" />
+      <workItem from="1618888811928" duration="1812000" />
+      <workItem from="1619078932348" duration="657000" />
+      <workItem from="1619092689999" duration="5206000" />
+      <workItem from="1619106155040" duration="2851000" />
+      <workItem from="1619144696772" duration="271000" />
+      <workItem from="1619158928700" duration="4046000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

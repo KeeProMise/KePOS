@@ -27,6 +27,8 @@ unsigned long registerDevice(void * deviceLoad,unsigned long bufferSize){
             device->init(device->devID);
         }
     }
+    initBuffer(&device->inBuffer,bufferSize);
+    initBuffer(&device->outBuffer,bufferSize);
     deviceTable.count++;
     return device->devID;
 }
@@ -110,8 +112,6 @@ unsigned long kerboardLoad(struct Device * device,unsigned long bufferSize){
     device->write = kerboardWrite;
     device->exit = kerboardExit;
     device->close = kerboardClose;
-    initBuffer(&device->inBuffer,bufferSize);
-    initBuffer(&device->outBuffer,bufferSize);
     return True;
 }
 
@@ -179,8 +179,6 @@ unsigned long mouseLoad(struct Device * device,unsigned long bufferSize){
     device->write = mouseWrite;
     device->exit = mouseExit;
     device->close = mouseClose;
-    initBuffer(&device->inBuffer,bufferSize);
-    initBuffer(&device->outBuffer,bufferSize);
     return True;
 }
 //磁盘驱动
